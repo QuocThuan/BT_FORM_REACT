@@ -1,9 +1,9 @@
-import BaiTapDatVeXemPhim from "./Components/BT_datVeXemPhim/BaiTapDatVeXemPhim";
+import BaiTapForm from "./Components/BaiTapForm";
 
 function App() {
   return (
     <div className="App">
-      <BaiTapDatVeXemPhim />
+      <BaiTapForm />
     </div>
   );
 }

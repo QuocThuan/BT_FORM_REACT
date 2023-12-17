@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { datVeReducer } from "./reducer/datVeReducer";
+import nguoiDungSlice from "./slides/nguoiDungSlice";
 
 export const store = configureStore({
   reducer: {
-    datVeReducer,
+    nguoiDungSlice,
   },
 });
